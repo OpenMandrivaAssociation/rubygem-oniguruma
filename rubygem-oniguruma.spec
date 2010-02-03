@@ -3,15 +3,13 @@
 Summary:	Ruby bindings for the Onigurama regexp library
 Name:		rubygem-%{oname}
 Version:	1.1.0
-Release:	%mkrel 1
+Release:	%mkrel 2
 License:	MIT
 Group:		Development/Ruby
 URL:		http://%{oname}.rubyforge.org/
 Source0:	http://gems.rubyforge.org/gems/%{oname}-%{version}.gem
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires:	ruby-RubyGems onig-devel
-Requires:	ruby-rake >= 0.
-Requires:	rubygem-rubyforge >= 2.0.3
 
 %description
 Ruby bindings to the Oniguruma[http://www.geocities.jp/kosako3/oniguruma/]
