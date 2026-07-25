@@ -3,7 +3,7 @@
 Summary:	Ruby bindings for the Onigurama regexp library
 Name:		rubygem-%{oname}
 Version:	1.1.0
-Release:	%mkrel 2
+Release:	3
 License:	BSD
 Group:		Development/Ruby
 URL:		https://%{oname}.rubyforge.org/
